@@ -1,0 +1,64 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+}
+header {
+    background-color: #0d0d0e;
+    color: rgb(235, 85, 85);
+    padding: 1px 0;
+    text-align: center;
+    margin-top: 15;
+    margin-bottom: 15;
+}
+header a{
+    background-color: orange;
+    color:black;
+    padding-top: 5;
+    padding-left: 10;
+    padding-bottom: 5;
+    padding-right: 10;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #575757;
+}
+main {
+    padding: 20px;
+    padding-bottom: 10%;
+}
+footer {
+    color: rgb(9, 5, 5);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+div {
+    background-image: url('/static/images/skybg.png');
+    background-size: cover;
+    bottom: 100%;
+}
+form{
+    padding:10%;
+    text-align: center;
+    background-color: aqua;
+
+}
+form button{
+    background-color: orange;
+    color: black;
+    border-radius: 10%;
+}

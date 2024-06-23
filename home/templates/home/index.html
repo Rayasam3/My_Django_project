@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <header>
+        <h1>Government of AndhraPradesh</h1>
+        <p>Village development program</p>
+        <a href="login/" type="button">Login</a>
+        <a href="signup/" type="button">SignUp</a>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#departments">Departments</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </nav>
+<main>
+    <section id="home">
+        <h2>Welcome to the Government Website</h2>
+        <p>This is the official website of the government of INDIA. Here you can find information about government services, departments, and the latest news.</p>
+        <h4>National services:</h4>
+        <ul>
+            <a href="https://uidai.gov.in">Adhaar application</a><br>
+            <a href="https://services.india.gov.in/service/detail/apply-online-for-new-pan-card-or-corrections-in-pan-card-information">Pan application. </a><br>
+            <a href="https://parivahan.gov.in/parivahan//en/content/driving-licence-0">Driving Licens Application.</a><br>
+        </ul>
+        
+    </section>
+    <section id="services">
+        <h2>Services</h2>
+        <p>Details about various services offered by the government.</p>
+    </section>
+    <section id="departments">
+        <h2>Departments</h2>
+        <p>Information about different government departments and their functions.</p>
+    </section>
+    <section id="news">
+        <h2>News</h2>
+        <p>Latest news and updates from the government.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>How to get in touch with us.</p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Government of INDIA. All rights reserved.</p>
+</footer>
+</div>
+{% endblock content %}
